@@ -21,6 +21,9 @@ let ehInteiro = Number.isInteger(num1);
 //mostra o menor número da sequancia
 //console.log(Math.min (1,5,4,3,17,28,60,45,2,13));
 
+//mostra o menor número da sequancia
+console.log(Math.max (1,5,4,3,17,28,60,45,2,13));
+
 //mostra número aleatório entre 0 e 1
 //console.log(Math.random());
 
