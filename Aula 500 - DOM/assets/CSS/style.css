@@ -6,7 +6,7 @@
 }
 
 *{
-    box-sizing: border-box;
+    box-sizing: : border-box;
     outline: 0;
 }
 
@@ -15,7 +15,7 @@ body{
     padding: 0;
     background: var(--primary-color);
     font-family: 'Open sans' , sans-serif;
-    font-size: 1.3em;
+    font-size: 1em;
     line-height: 1.5em;
 }
 
@@ -30,7 +30,7 @@ body{
 /*Como não existe clas... ele vai pegar qualquer formulario da index.html */
 form input, form label, form button {
     display: block;
-    width: 100%;
+    width: 91%;
     margin-bottom: 10px;
     
 }
@@ -65,13 +65,5 @@ form button:hover {
     background: var(--primary-color-darker);
 }
 
-.paragrafo-resultado, .bad {
-    background: rgb(155, 243, 170);
-    padding: 10px 10px;
-}
-
-.bad {
-    background: rgb(250, 170, 170);
-}
 
 

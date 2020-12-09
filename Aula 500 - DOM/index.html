@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Relembrar DOM</h1>
+        <!--<p><input class="inputNewLista" type="text">
+        </p>-->
+        <ul class="lista">
+            <li>Pegar do Html e adicionar em uma variavel<p> 
+                para pegar a class usar('.class')<br>
+                para pegar pelo ID usar('#id')<br>
+               let divHtml = const tarefas = document.querySelector('.tarefas');<br>
+            </p></li>
+            <li>Criar um novo elemento<p> 
+               const varDoElement = document.createElement('li');<br>
+               #utilizar dentro dos parenteses o tipo de tag html quequer usar:<br>
+               <ul>
+                   <li>'p' para p < ></li>
+                   <li>'div' para div < ></li>
+                   <li>'button' para <button>Button</button></li>
+
+
+               </ul>
+            </p></li>
+            <li>Criar Li<p> 
+                function criaLi() { <br>
+                    const li = document.createElement('li');<br>
+                    return li;<br>
+                }
+            </p></li>
+            <li>Criar funcao para add a Li no Html<p>
+                const divHtml = document.querySelector('.nomeDaClass')';<br> 
+                function adicionaLi(txtAserAdd) {  <br>                  
+                    const li = criaLi();<br>
+                    li.innerText = txtAserAdd;   <br> 
+                    divHtml.appendChild(li)                              
+                }
+            </p></li>
+           
+            <li>Lista Limpa<p> 
+               
+            </p></li>
+
+
+        </ul>
+    </section>
+    <section class="container">
+        <h1>LocalStorage</h1>
+        <!--<p><input class="inputNewLista" type="text">
+        </p>-->
+        <ul class="Storage">
+            <li>Adicionando:
+                <p>localStorage.setItem('letQualquer', 'conteudo em Sting');</p>
+            </li>
+            <li>Pegando:
+                <p>const letQvaiReceber = localStorage.getItem('letCriadaNaAdicao');</p>
+            </li>
+
+        </ul>
+    </section>   
+    <section class="container">
+        <h1>JSON</h1>
+        <!--<p><input class="inputNewLista" type="text">
+        </p>-->
+        <ul class="Storage">
+            <li>Transformar Array em String:
+                <p>const recebeJSON = JSON.stringify(varContemOArray);</p>
+            </li>
+            <li>Transformar Array em String:
+                <p>const recebeJSON = JSON.stringify(varContemOArray);</p>
+            </li>
+            
+
+        </ul>
+    </section>   
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
